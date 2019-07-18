@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Order</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="home">Trang chủ</string>
+    <string name="order">Đặt</string>
+    <string name="password">Mật khẩu</string>
+    <string name="price">Giá</string>
+    <string name="username">Tên người dùng</string>
+    <string name="totalprice">Thành tiền</string>
+</resources>
