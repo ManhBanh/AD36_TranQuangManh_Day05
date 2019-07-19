@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud1">
+
+    <TextView
+        android:id="@+id/tvBannerCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cart"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/vangsang"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:background="#8356DF2A"
+        android:layout_alignParentTop="true"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvShoppingCart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvBannerCart"
+        android:layout_above="@+id/tvPriceCart"
+        android:layout_margin="@dimen/_20sdp"
+        android:padding="@dimen/_60sdp"
+        android:background="@drawable/recyclerview_shape"/>
+
+    <TextView
+        android:id="@+id/tvPriceCart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/totalprice"
+        android:textSize="@dimen/_20sdp"
+        android:background="@color/trangtrongsuot"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

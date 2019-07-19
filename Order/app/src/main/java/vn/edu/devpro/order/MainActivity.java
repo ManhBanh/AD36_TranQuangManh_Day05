@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity implements OrderFragment.IOn
     BottomNavigationView bnv;
 
     ShoppingCartFragment shoppingCartFragment;
-    TextView tvUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         bnv = findViewById(R.id.bnv);
         final String welcome = getIntent().getStringExtra("Username");

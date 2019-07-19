@@ -7,7 +7,6 @@
         android:id="@+id/tvProductName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/_20sdp"
-        android:textColor="@color/vangsang"/>
+        android:textSize="@dimen/_17sdp"/>
 
 </LinearLayout>

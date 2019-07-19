@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="xanhnhat">#54F70D</color>
-    <color name="xam">#8F8585</color>
+    <color name="xam">#A18F8585</color>
     <color name="vangsang">#FFEE62</color>
+    <color name="trangtrongsuot">#6FFFFFFF</color>
 </resources>

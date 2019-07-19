@@ -36,12 +36,13 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingAdapter.Viewho
     public void onBindViewHolder(@NonNull ShoppingAdapter.Viewholder holder, int position) {
         final Item item = itemArrayList.get(position);
 
+
         holder.tvProductName.setText(item.getName());
 
         holder.tvProductName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                iOnClick.onClickName(item.getName(), item.getPrice());
+                iOnClick.onClick(item.getName(), item.getPrice());
             }
         });
     }
