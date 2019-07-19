@@ -4,14 +4,14 @@ import java.io.Serializable;
 
 public class Item implements Serializable {
     String Name;
-    int amount;
-
-    public Item(String name, int amount) {
-        Name = name;
-        this.amount = amount;
-    }
+    Double price;
 
     public Item() {
+    }
+
+    public Item(String name, Double price) {
+        Name = name;
+        this.price = price;
     }
 
     public String getName() {
@@ -19,14 +19,14 @@ public class Item implements Serializable {
     }
 
     public void setName(String name) {
-        Name = name;
+        this.Name = name;
     }
 
-    public int getAmount() {
-        return amount;
+    public Double getPrice() {
+        return price;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setPrice(Double price) {
+        this.price = price;
     }
 }

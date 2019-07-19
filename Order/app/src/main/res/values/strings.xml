@@ -8,4 +8,6 @@
     <string name="order">Order</string>
     <string name="price">Price</string>
     <string name="totalprice">Total price</string>
+    <string name="login">Log in</string>
+    <string name="welcome">Welcome</string>
 </resources>

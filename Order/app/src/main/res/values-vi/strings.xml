@@ -8,4 +8,6 @@
     <string name="price">Giá</string>
     <string name="username">Tên người dùng</string>
     <string name="totalprice">Thành tiền</string>
+    <string name="login">Đăng nhập</string>
+    <string name="welcome">Xin chào</string>
 </resources>

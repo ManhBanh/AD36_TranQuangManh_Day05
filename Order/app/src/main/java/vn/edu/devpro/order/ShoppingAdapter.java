@@ -41,7 +41,7 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingAdapter.Viewho
         holder.tvProductName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                iOnClick.onClickName(item.getName());
+                iOnClick.onClickName(item.getName(), item.getPrice());
             }
         });
     }
